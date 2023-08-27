@@ -14,24 +14,24 @@ class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/QTVS_BOT_X_CLOUD')
     START_TXT = environ.get("START_TXT", '''<b>ʜᴇʏ... {}
     
-ᴍʏ ɴᴀᴍᴇ ɪs <a href=http://t.me/Binthu_x_robot><b>𝕋𝕖𝕤𝕤𝕒 𝕏 𝔽𝕚𝕝𝕥𝕖𝕣</b></a>
+ᴍʏ ɴᴀᴍᴇ ɪs <a href=http://t.me/Gt_filterz_bot>𝗚𝗧 𝗳𝗶𝗹𝘁𝗲𝗿𝘇<b></b></a>
 
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs/sᴇʀɪᴇs ᴀɴᴅ ʟᴏᴛ ᴍᴏʀᴇ... ᴅᴏɴ'ᴛ ᴡᴀsᴛᴇ ʏᴏᴜʀ ᴛɪᴍᴇ ʙʏ ʟᴏᴏᴋɪɴɢ ᴛᴏ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ.. ᴀᴅᴅ & ᴇɴᴊᴏʏ ᴍᴇʜ ᴘᴏᴡᴇʀ
 
-ᴍᴀᴅᴇ ᴡɪᴛʜ 🍁 ʙʏ <a href=https://t.me/SMD_Owner><b>𝕊𝕄𝔻_𝕆𝕨𝕟𝕖𝕣</b></a></b>''')
+ᴍᴀᴅᴇ ᴡɪᴛʜ 🍁 ʙʏ <a href=https://t.me/Owner_of_qtmve><b>🍁𝗔𝗨𝗧𝗛𝗢𝗥🌿</b></a></b>''')
     HELP_TXT = """ʜᴇʏ {}
 ʜᴇʀᴇ ɪꜱ ᴍʏ ᴄᴏᴍᴍᴀɴᴅꜱ."""
     ABOUT_TXT = """<b>
 ╭────[ ℚ𝕋𝕍𝕊𝕆𝔽𝔽𝕀ℂ𝕀𝔸𝕃 ]────⍟
 │
-├⍟ 𝕆𝕌ℝ 𝔹𝕆𝕋 ℕ𝔸𝕄𝔼 : <a href=http://t.me/Binthu_x_robot><b>𝗞𝗔𝗠𝗡𝗔𝗔𝗧𝗜</b></a>
-├⍟ 𝔸𝕌𝕋ℍ𝕆ℝ : <a href=https://t.me/SMD_Owner><b>𝔸.𝕂 🍁</b></a>
-├⍟ ℙ𝔸𝔼ℂ𝔼 : <a href=https://t.me/SMD_Owner><b>𝕋ℍ𝔸𝕃𝔸 𝔸𝕁𝕀𝕋ℍ🦞</b></a>
-├⍟ ℙℝ𝕆𝕁𝔼ℂ𝕋 : <a href=https://t.me/SMD_Owner><b>𝕌𝕃𝕋𝕀𝕄𝔼𝕋 𝕊𝕋𝔸ℝ❤‍🔥</b></a>
-├⍟ 𝕃𝔸ℕ𝔾𝕌𝔸𝔾𝔼 : <a href=https://t.me/SMD_Owner><b>ℕ𝔸𝕐𝔸ℕ𝔻𝔸ℝ𝔸☠️</b></a>
-├⍟ 𝔽ℝ𝔸𝕄𝔼𝕎𝕆ℝ𝕂 : <a href=https://t.me/SMD_Owner><b>ℍ𝔸ℕ𝕌𝕊ℍ𝕀𝕂𝔸😈</b></a>
-├⍟ ℂℝ𝔼𝔸𝕋𝕆ℝ : <a href=https://t.me/SMD_Owner><b>𝕊𝔸𝕄𝔸ℕ𝕋ℍ𝔸🥴</b></a>
-├⍟ 𝕊𝔼ℝ𝕍𝕀ℂ𝔼 ℍ𝕌𝔹  : <a href=https://t.me/SMD_Owner><b>𝕋𝔸𝕄𝔸ℕ𝔸😊</b></a>
+├⍟ 𝕆𝕌ℝ 𝔹𝕆𝕋 ℕ𝔸𝕄𝔼 : <a href=http://t.me/Gt_filterz_bot><b>𝗞𝗔𝗠𝗡𝗔𝗔𝗧𝗜</b></a>
+├⍟ 𝔸𝕌𝕋ℍ𝕆ℝ : <a href=https://t.me/NingaH2R><b>𝗟𝗘𝗢🍁</b></a>
+├⍟ ℙ𝔸𝔼ℂ𝔼 : <a href=https://t.me/NingaH2R><b>𝗠𝗔𝗟𝗔𝗧𝗛𝗜🦞</b></a>
+├⍟ ℙℝ𝕆𝕁𝔼ℂ𝕋 : <a href=https://t.me/NingaH2R><b>𝗣𝗢𝗥𝗨𝗞𝗜❤‍🔥</b></a>
+├⍟ 𝕃𝔸ℕ𝔾𝕌𝔸𝔾𝔼 : <a href=https://t.me/NingaH2R><b>𝗚𝗔𝗔𝗬𝗨☠️</b></a>
+├⍟ 𝔽ℝ𝔸𝕄𝔼𝕎𝕆ℝ𝕂 : <a href=https://t.me/NingaH2R><b>𝗞𝗘𝗘𝗥𝗧𝗛𝗨😈</b></a>
+├⍟ ℂℝ𝔼𝔸𝕋𝕆ℝ : <a href=https://t.me/NingaH2R><b>𝗠𝗔𝗔𝗟𝗔🥴</b></a>
+├⍟ 𝕊𝔼ℝ𝕍𝕀ℂ𝔼 ℍ𝕌𝔹  : <a href=https://t.me/NingaH2R><b>𝗥𝗢𝗝𝗔 𝗣𝗢𝗢😊</b></a>
 │
 ╰─────────────────────⍟<b>"""
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬 💗
@@ -122,7 +122,7 @@ This module only works for my admins
 <b>᚛› 𝐆𝐫𝐨𝐮𝐩 ⪼ {}(<code>{}</code>)</b>
 <b>᚛› 𝐓𝐨𝐭𝐚𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 ⪼ <code>{}</code></b>
 <b>᚛› 𝐀𝐝𝐝𝐞𝐝 𝐁𝐲 ⪼ {}</b>
-<b>᚛› @SAM_DUB_LEZHa </b>
+<b>᚛› @SMD_Owner </b>
 """
     LOG_TEXT_P = """#𝐍𝐞𝐰𝐔𝐬𝐞𝐫-new 
     
