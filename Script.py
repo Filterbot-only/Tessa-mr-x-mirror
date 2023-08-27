@@ -24,14 +24,14 @@ class script(object):
     ABOUT_TXT = """<b>
 ╭────[ ℚ𝕋𝕍𝕊𝕆𝔽𝔽𝕀ℂ𝕀𝔸𝕃 ]────⍟
 │
-├⍟ 𝕆𝕌ℝ 𝔹𝕆𝕋 ℕ𝔸𝕄𝔼 : <a href=http://t.me/Gt_filterz_bot><b>𝗞𝗔𝗠𝗡𝗔𝗔𝗧𝗜</b></a>
-├⍟ 𝔸𝕌𝕋ℍ𝕆ℝ : <a href=https://t.me/NingaH2R><b>𝗟𝗘𝗢🍁</b></a>
-├⍟ ℙ𝔸𝔼ℂ𝔼 : <a href=https://t.me/NingaH2R><b>𝗠𝗔𝗟𝗔𝗧𝗛𝗜🦞</b></a>
-├⍟ ℙℝ𝕆𝕁𝔼ℂ𝕋 : <a href=https://t.me/NingaH2R><b>𝗣𝗢𝗥𝗨𝗞𝗜❤‍🔥</b></a>
-├⍟ 𝕃𝔸ℕ𝔾𝕌𝔸𝔾𝔼 : <a href=https://t.me/NingaH2R><b>𝗚𝗔𝗔𝗬𝗨☠️</b></a>
-├⍟ 𝔽ℝ𝔸𝕄𝔼𝕎𝕆ℝ𝕂 : <a href=https://t.me/NingaH2R><b>𝗞𝗘𝗘𝗥𝗧𝗛𝗨😈</b></a>
-├⍟ ℂℝ𝔼𝔸𝕋𝕆ℝ : <a href=https://t.me/NingaH2R><b>𝗠𝗔𝗔𝗟𝗔🥴</b></a>
-├⍟ 𝕊𝔼ℝ𝕍𝕀ℂ𝔼 ℍ𝕌𝔹  : <a href=https://t.me/NingaH2R><b>𝗥𝗢𝗝𝗔 𝗣𝗢𝗢😊</b></a>
+├⍟ 𝕆𝕌ℝ 𝔹𝕆𝕋 ℕ𝔸𝕄𝔼 : <a href=http://t.me/Gt_filterz_bot><b>👑𝗞𝗔𝗠𝗡𝗔𝗔𝗧𝗜💥</b></a>
+├⍟ 𝔸𝕌𝕋ℍ𝕆ℝ : <a href=https://t.me/NingaH2R><b>🦞𝗟𝗘𝗢🍁</b></a>
+├⍟ ℙ𝔸𝔼ℂ𝔼 : <a href=https://t.me/NingaH2R><b>❄𝗠𝗔𝗟𝗔𝗧𝗛𝗜🦞</b></a>
+├⍟ ℙℝ𝕆𝕁𝔼ℂ𝕋 : <a href=https://t.me/NingaH2R><b>💐𝗣𝗢𝗥𝗨𝗞𝗜❤‍🔥</b></a>
+├⍟ 𝕃𝔸ℕ𝔾𝕌𝔸𝔾𝔼 : <a href=https://t.me/NingaH2R><b>🦞𝗚𝗔𝗔𝗬𝗨☠️</b></a>
+├⍟ 𝔽ℝ𝔸𝕄𝔼𝕎𝕆ℝ𝕂 : <a href=https://t.me/NingaH2R><b>💖𝗞𝗘𝗘𝗥𝗧𝗛𝗨😈</b></a>
+├⍟ ℂℝ𝔼𝔸𝕋𝕆ℝ : <a href=https://t.me/NingaH2R><b>🌿𝗠𝗔𝗔𝗟𝗔🥴</b></a>
+├⍟ 𝕊𝔼ℝ𝕍𝕀ℂ𝔼 ℍ𝕌𝔹  : <a href=https://t.me/NingaH2R><b>🎋𝗥𝗢𝗝𝗔 𝗣𝗢𝗢😊</b></a>
 │
 ╰─────────────────────⍟<b>"""
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬 💗
