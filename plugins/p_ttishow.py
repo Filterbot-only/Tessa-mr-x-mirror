@@ -38,7 +38,7 @@ async def save_group(bot, message):
             return
         buttons = [[
             InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/qtmve_linkzZ')
+            InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/GT_MOVIES1')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -57,9 +57,9 @@ async def save_group(bot, message):
                 video="https://telegra.ph/file/03691465baa774e46506d.mp4",                                               
                                                  caption=f'<b>Hey there... {u.mention} 😍\nWelcome to {message.chat.title} How Are You?\n\n👉Request Format\nMovie Name (Correct spelling)\nYear Or Language\n\n👉 Search On Google & Paste Here! With Correct Proper Spelling! To Get Movie\n\n👉Example :\nThunivu (2023) Tamil\nVarisu (2023) Tamil\n\n👉Dont Type ( Movie, bro, anupuga, hd) You wont get Anything!</b>',
 
-                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🔥  ↭ Main Channel ↭  🔥', url='https://t.me/qtmve_linkzZ') ],
+                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🔥  ↭ Main Channel ↭  🔥', url='https://t.me/GT_MOVIES1') ],
 
-                                                                                      [ InlineKeyboardButton('🔥  ↭ Request Channel ↭  🔥', url='https://t.me/+5zdnXfOqEEwxNjQ1') ]
+                                                                                      [ InlineKeyboardButton('🔥  ↭ Request Channel ↭  🔥', url='https://t.me/+YzD_kSaE-l04NzY1') ]
 
                                                                                     ] )
 
