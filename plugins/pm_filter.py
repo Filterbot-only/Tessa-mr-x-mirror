@@ -448,7 +448,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('💥 ＨＥＬＰ 💐', callback_data='help'),
             InlineKeyboardButton('🎋𝕊𝔼𝔼ℕ 𝔸𝔹𝕆𝕌𝕋❄', callback_data='about')
         ], [
-            InlineKeyboardButton('🥴𝔾𝕆ℙ𝔸𝔸𝕃✍️', url='https://t.me/SMD_Owner')
+            InlineKeyboardButton('🌿𝗞𝗢𝗟𝗔𝗥𝗨 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥🍁', url='https://t.me/SMD_Owner')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -459,13 +459,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙷𝙰𝚁𝙴 𝙰𝙽𝙳 𝚂𝚄𝙿𝙿𝙾𝚁𝚃')
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('ᴍᴀɴᴜᴇʟ ꜰɪʟᴛᴇʀ', callback_data='manuelfilter'),
-            InlineKeyboardButton('ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ', callback_data='autofilter')
+            InlineKeyboardButton('🦞𝗠𝗔𝗡𝗨𝗔𝗟 𝗙𝗜𝗟𝗧𝗘𝗥🍁', callback_data='manuelfilter'),
+            InlineKeyboardButton('❤‍🔥𝗔𝘂𝘁𝗼 𝗙𝗶𝗹𝘁𝗲𝗿❤‍🔥', callback_data='autofilter')
         ], [
-            InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ', callback_data='coct'),
-            InlineKeyboardButton('ᴇxᴛʀᴀ ᴍᴏᴅꜱ', callback_data='extra')
+            InlineKeyboardButton('🌿𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗜𝗢𝗡🌿', callback_data='coct'),
+            InlineKeyboardButton('😈𝗘𝗫𝗔𝗧𝗥𝗔 𝗠𝗢𝗢𝗗𝗦😈', callback_data='extra')
         ], [
-            InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('🌿𝗛𝗢𝗠𝗘 𝗣𝗔𝗚𝗘🍁', callback_data='start'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
