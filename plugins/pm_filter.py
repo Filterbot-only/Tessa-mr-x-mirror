@@ -108,7 +108,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("🦞ＳＥＡＲＣＨ 👨‍🏫", url="https://t.me/+YzD_kSaE-l04NzY1"),
+            InlineKeyboardButton("🦞ＳＥＡＲＣＨ 👨‍🏫", url="https://t.me/+JExAdlVqXEIwMmJl"),
             InlineKeyboardButton("🍃 ＵＰＤＡＴＥ 🗽", url="https://t.me/GT_MOVIES1")
         ]
     )
@@ -123,7 +123,7 @@ async def next_page(bot, query):
     # How to Download button
    
     btn.append(
-    [InlineKeyboardButton("🥀ＨＯＷ ＴＯ ＤＯＷＮＬＯＡＤ🦞", url="https://t.me/GT_MOVIES1/4"),]
+    [InlineKeyboardButton("🥀ＨＯＷ ＴＯ ＤＯＷＮＬＯＡＤ🦞", url="https://t.me/GT_MOVIES1/9"),]
 )
     if n_offset == 0:
         btn.append(
@@ -443,7 +443,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('♻️ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🍃 ＭＡＩＮ ＨＵＢ 🗽', url='https://t.me/GT_MOVIES1'),
-            InlineKeyboardButton('🦞ＳＥＡＲＣＨ 👨‍🏫', url='https://t.me/+YzD_kSaE-l04NzY1')
+            InlineKeyboardButton('🦞ＳＥＡＲＣＨ 👨‍🏫', url='https://t.me/+JExAdlVqXEIwMmJl')
         ], [
             InlineKeyboardButton('💥 ＨＥＬＰ 💐', callback_data='help'),
             InlineKeyboardButton('🎋𝕊𝔼𝔼ℕ 𝔸𝔹𝕆𝕌𝕋❄', callback_data='about')
@@ -701,13 +701,13 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("🦞ＳＥＡＲＣＨ 👨‍🏫", url="https://t.me/+YzD_kSaE-l04NzY1"),
+            InlineKeyboardButton("🦞ＳＥＡＲＣＨ 👨‍🏫", url="https://t.me/+JExAdlVqXEIwMmJl"),
             InlineKeyboardButton("⚡🍃 ＭＡＩＮ ＨＵＢ 🗽", url="https://t.me/GT_MOVIES1")
         ]
     )
     
     btn.append(
-    [InlineKeyboardButton("🥀ＨＯＷ ＴＯ ＤＯＷＮＬＯＡＤ🦞", url="https://t.me/GT_MOVIES1/4"),]
+    [InlineKeyboardButton("🥀ＨＯＷ ＴＯ ＤＯＷＮＬＯＡＤ🦞", url="https://t.me/GT_MOVIES1/9"),]
 )
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
