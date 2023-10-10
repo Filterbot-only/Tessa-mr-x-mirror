@@ -108,8 +108,8 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("🦞ＳＥＡＲＣＨ 👨‍🏫", url="https://t.me/+JExAdlVqXEIwMmJl"),
-            InlineKeyboardButton("🍃 ＵＰＤＡＴＥ 🗽", url="https://t.me/GT_MOVIES1")
+            InlineKeyboardButton("🦞𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩👨‍🏫", url="https://t.me/+JExAdlVqXEIwMmJl"),
+            InlineKeyboardButton("🍃𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🗽", url="https://t.me/GT_MOVIES1")
         ]
     )
 
@@ -123,7 +123,7 @@ async def next_page(bot, query):
     # How to Download button
    
     btn.append(
-    [InlineKeyboardButton("🥀ＨＯＷ ＴＯ ＤＯＷＮＬＯＡＤ🦞", url="https://t.me/GT_MOVIES1/9"),]
+    [InlineKeyboardButton("🥀𝐇𝐨𝐰 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝🦞", url="https://t.me/GT_MOVIES1/9"),]
 )
     if n_offset == 0:
         btn.append(
@@ -440,15 +440,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('♻️ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('♻️𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐔 𝐑 𝐆𝐫𝐮𝐩♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🍃 ＭＡＩＮ ＨＵＢ 🗽', url='https://t.me/GT_MOVIES1'),
-            InlineKeyboardButton('🦞ＳＥＡＲＣＨ 👨‍🏫', url='https://t.me/+JExAdlVqXEIwMmJl')
+            InlineKeyboardButton('🍃𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🗽', url='https://t.me/GT_MOVIES1'),
+            InlineKeyboardButton('🦞𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩👨‍🏫', url='https://t.me/+JExAdlVqXEIwMmJl')
         ], [
-            InlineKeyboardButton('💥 ＨＥＬＰ 💐', callback_data='help'),
-            InlineKeyboardButton('🎋𝕊𝔼𝔼ℕ 𝔸𝔹𝕆𝕌𝕋❄', callback_data='about')
+            InlineKeyboardButton('💥𝐒𝐮𝐩𝐩𝐨𝐫𝐭💐', callback_data='help'),
+            InlineKeyboardButton('🎋𝐌𝐨𝐫𝐞 𝐀𝐛𝐨𝐮𝐭❄', callback_data='about')
         ], [
-            InlineKeyboardButton('🌿𝗞𝗢𝗟𝗔𝗥𝗨 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥🍁', url='https://t.me/SMD_Owner')
+            InlineKeyboardButton('🌿𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🍁', url='https://t.me/SMD_Owner')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -459,13 +459,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙷𝙰𝚁𝙴 𝙰𝙽𝙳 𝚂𝚄𝙿𝙿𝙾𝚁𝚃')
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('🦞𝗠𝗔𝗡𝗨𝗔𝗟 𝗙𝗜𝗟𝗧𝗘𝗥🍁', callback_data='manuelfilter'),
-            InlineKeyboardButton('❤‍🔥𝗔𝘂𝘁𝗼 𝗙𝗶𝗹𝘁𝗲𝗿❤‍🔥', callback_data='autofilter')
+            InlineKeyboardButton('🦞𝐌𝐚𝐧𝐮𝐚𝐥 𝐅𝐢𝐥𝐭𝐞𝐫🍁', callback_data='manuelfilter'),
+            InlineKeyboardButton('❤‍🔥𝐀𝐮𝐭𝐨 𝐅𝐢𝐥𝐭𝐞𝐫❤‍🔥', callback_data='autofilter')
         ], [
-            InlineKeyboardButton('🌿𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗜𝗢𝗡🌿', callback_data='coct'),
-            InlineKeyboardButton('😈𝗘𝗫𝗔𝗧𝗥𝗔 𝗠𝗢𝗢𝗗𝗦😈', callback_data='extra')
+            InlineKeyboardButton('🌿𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧🌿', callback_data='coct'),
+            InlineKeyboardButton('😈𝐄𝐱𝐭𝐫𝐚 𝐌𝐨𝐝𝐞𝐬😈', callback_data='extra')
         ], [
-            InlineKeyboardButton('🌿𝗛𝗢𝗠𝗘 𝗣𝗔𝗚𝗘🍁', callback_data='start'),
+            InlineKeyboardButton('🌿𝐇𝐨𝐦𝐞 𝐏𝐚𝐠𝐞🍁', callback_data='start'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -475,11 +475,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🍃 ＭＡＩＮ ＨＵＢ 🗽', url='https://t.me/GT_MOVIES1'),
-            InlineKeyboardButton('👑𝕊𝕆𝕌ℝℂ𝔼🥀', callback_data='source')
+            InlineKeyboardButton('🍃𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🗽', url='https://t.me/GT_MOVIES1'),
+            InlineKeyboardButton('👑𝐀𝐮𝐭𝐡𝐨𝐫🥀', callback_data='source')
         ],[
-            InlineKeyboardButton('🍁ℍ𝕆𝕄𝔼🌿', callback_data='start'),
-            InlineKeyboardButton('🍀ℂ𝕃𝕆𝕊𝔼🍀', callback_data='close_data') 
+            InlineKeyboardButton('🍁𝐇𝐨𝐦𝐞🌿', callback_data='start'),
+            InlineKeyboardButton('🍀𝐂𝐥𝐨𝐬𝐞🍀', callback_data='close_data') 
          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -701,13 +701,13 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("🦞ＳＥＡＲＣＨ 👨‍🏫", url="https://t.me/+JExAdlVqXEIwMmJl"),
-            InlineKeyboardButton("⚡🍃 ＭＡＩＮ ＨＵＢ 🗽", url="https://t.me/GT_MOVIES1")
+            InlineKeyboardButton("🦞𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩👨‍🏫", url="https://t.me/+JExAdlVqXEIwMmJl"),
+            InlineKeyboardButton("⚡🍃𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🗽", url="https://t.me/GT_MOVIES1")
         ]
     )
     
     btn.append(
-    [InlineKeyboardButton("🥀ＨＯＷ ＴＯ ＤＯＷＮＬＯＡＤ🦞", url="https://t.me/GT_MOVIES1/9"),]
+    [InlineKeyboardButton("🥀𝐇𝐨𝐰 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝🦞", url="https://t.me/GT_MOVIES1/9"),]
 )
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
