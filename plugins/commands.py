@@ -25,7 +25,7 @@ async def start(client, message):
             InlineKeyboardButton('♻️𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐔 𝐑 𝐆𝐫𝐮𝐩♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('♣𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🌿', url='https://t.me/GT_MOVIES1'),
-            InlineKeyboardButton('🦞𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩👨‍🏫', url='https://t.me/+JExAdlVqXEIwMmJl')
+            InlineKeyboardButton('🦞𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩👨‍🏫', url='https://t.me/Gt_Movies_Request')
         ], [
             InlineKeyboardButton('💥𝐒𝐮𝐩𝐩𝐨𝐫𝐭💐', callback_data='help'),
             InlineKeyboardButton('🎋𝐌𝐨𝐫𝐞 𝐀𝐛𝐨𝐮𝐭❄', callback_data='about')
@@ -48,7 +48,7 @@ async def start(client, message):
             InlineKeyboardButton('♻️𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐔 𝐑 𝐆𝐫𝐮𝐩♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🍃𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🗽', url='https://t.me/GT_MOVIES1'),
-            InlineKeyboardButton('🦞𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩👨‍🏫', url='https://t.me/+JExAdlVqXEIwMmJl')
+            InlineKeyboardButton('🦞𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩👨‍🏫', url='https://t.me/Gt_Movies_Request')
         ], [
             InlineKeyboardButton('💥𝐒𝐮𝐩𝐩𝐨𝐫𝐭💐', callback_data='help'),
             InlineKeyboardButton('🎋𝐌𝐨𝐫𝐞 𝐀𝐛𝐨𝐮𝐭❄', callback_data='about')
@@ -96,7 +96,7 @@ async def start(client, message):
             InlineKeyboardButton('♻️𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐔 𝐑 𝐆𝐫𝐮𝐩♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🍃𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🗽', url='https://t.me/GT_MOVIES1'),
-            InlineKeyboardButton('🦞𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩👨‍🏫', url='https://t.me/+JExAdlVqXEIwMmJl')
+            InlineKeyboardButton('🦞𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩👨‍🏫', url='https://t.me/Gt_Movies_Request')
         ], [
             InlineKeyboardButton('💥𝐒𝐮𝐩𝐩𝐨𝐫𝐭💐', callback_data='help'),
             InlineKeyboardButton('🎋𝐌𝐨𝐫𝐞 𝐀𝐛𝐨𝐮𝐭❄', callback_data='about')
@@ -251,7 +251,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🎋𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐇𝐞𝐫𝐞💮', url='https://t.me/+YzD_kSaE-l04NzY1') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🎋𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐇𝐞𝐫𝐞💮', url='https://t.me/Gt_Movies_Request') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
