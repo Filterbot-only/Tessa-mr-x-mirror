@@ -14,24 +14,24 @@ class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/QTVS_BOT_X_CLOUD')
     START_TXT = environ.get("START_TXT", '''<b>𝙷𝙴𝙻𝙻𝙾... {}
     
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂  <a href=http://t.me/Gt_filterz_bot>𝗚𝗧 𝗳𝗶𝗹𝘁𝗲𝗿𝘇<b></b></a>
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂  <a href=http://t.me/Gt_filter_bot>🦞𝗚𝗧 𝗳𝗶𝗹𝘁𝗲𝗿𝘇🌿<b></b></a>
 
 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽.. 𝚃𝙷𝙴𝙽 𝚂𝙴𝙴 𝙼𝚈 𝙿𝙾𝚆𝙴𝚁𝚂
 
-ᴍᴀᴅᴇ ᴡɪᴛʜ 🍁 ʙʏ <a href=https://t.me/Owner_of_qtmve><b>🍁𝗔𝗨𝗧𝗛𝗢𝗥🌿</b></a></b>''')
+ᴍᴀᴅᴇ ᴡɪᴛʜ 🍁 ʙʏ <a href=https://t.me/SMD_Owner><b>🍁𝐀𝐮𝐭𝐡𝐨𝐫🌿</b></a></b>''')
     HELP_TXT = """ʜᴇʏ {}
 ʜᴇʀᴇ ɪꜱ ᴍʏ ᴄᴏᴍᴍᴀɴᴅꜱ."""
     ABOUT_TXT = """<b>
 ╭────[ ℚ𝕋𝕍𝕊𝕆𝔽𝔽𝕀ℂ𝕀𝔸𝕃 ]────⍟
 │
-├⍟ 𝕆𝕌ℝ 𝔹𝕆𝕋 ℕ𝔸𝕄𝔼 : <a href=http://t.me/Gt_filterz_bot><b>👑𝗞𝗔𝗠𝗡𝗔𝗔𝗧𝗜💥</b></a>
-├⍟ 𝔸𝕌𝕋ℍ𝕆ℝ : <a href=https://t.me/NingaH2R><b>🦞𝗟𝗘𝗢🍁</b></a>
-├⍟ ℙ𝔸𝔼ℂ𝔼 : <a href=https://t.me/NingaH2R><b>❄𝗠𝗔𝗟𝗔𝗧𝗛𝗜🦞</b></a>
-├⍟ ℙℝ𝕆𝕁𝔼ℂ𝕋 : <a href=https://t.me/NingaH2R><b>💐𝗣𝗢𝗥𝗨𝗞𝗜❤‍🔥</b></a>
-├⍟ 𝕃𝔸ℕ𝔾𝕌𝔸𝔾𝔼 : <a href=https://t.me/NingaH2R><b>🦞𝗚𝗔𝗔𝗬𝗨☠️</b></a>
-├⍟ 𝔽ℝ𝔸𝕄𝔼𝕎𝕆ℝ𝕂 : <a href=https://t.me/NingaH2R><b>💖𝗞𝗘𝗘𝗥𝗧𝗛𝗨😈</b></a>
-├⍟ ℂℝ𝔼𝔸𝕋𝕆ℝ : <a href=https://t.me/NingaH2R><b>🌿𝗠𝗔𝗔𝗟𝗔🥴</b></a>
-├⍟ 𝕊𝔼ℝ𝕍𝕀ℂ𝔼 ℍ𝕌𝔹  : <a href=https://t.me/NingaH2R><b>🎋𝗥𝗢𝗝𝗔 𝗣𝗢𝗢😊</b></a>
+├⍟ 𝕆𝕌ℝ 𝔹𝕆𝕋 ℕ𝔸𝕄𝔼 : <a href=http://t.me/Gt_filter_bot><b>👑𝐆𝐭 𝐅𝐢𝐥𝐭𝐞𝐫💥</b></a>
+├⍟ 𝔸𝕌𝕋ℍ𝕆ℝ : <a href=https://t.me/NingaH2R><b>🦞𝐀𝐝𝐦𝐢𝐧🍁</b></a>
+├⍟ ℙ𝔸𝔼ℂ𝔼 : <a href=https://t.me/NingaH2R><b>❄𝐎𝐰𝐧𝐞𝐫🦞</b></a>
+├⍟ ℙℝ𝕆𝕁𝔼ℂ𝕋 : <a href=https://t.me/NingaH2R><b>💐𝐔𝐬𝐞𝐫❤‍🔥</b></a>
+├⍟ 𝕃𝔸ℕ𝔾𝕌𝔸𝔾𝔼 : <a href=https://t.me/NingaH2R><b>🦞𝐒𝐮𝐩𝐩𝐨𝐫𝐭☠️</b></a>
+├⍟ 𝔽ℝ𝔸𝕄𝔼𝕎𝕆ℝ𝕂 : <a href=https://t.me/NingaH2R><b>💖𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦😈</b></a>
+├⍟ ℂℝ𝔼𝔸𝕋𝕆ℝ : <a href=https://t.me/NingaH2R><b>🌿𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞🥴</b></a>
+├⍟ 𝕊𝔼ℝ𝕍𝕀ℂ𝔼 ℍ𝕌𝔹  : <a href=https://t.me/NingaH2R><b>🎋𝐂𝐨𝐝𝐞𝐫♠</b></a>
 │
 ╰─────────────────────⍟<b>"""
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬 💗
@@ -128,5 +128,5 @@ This module only works for my admins
     
 <b>᚛› 𝐈𝐃⚡ - <code>{}</code></b>
 <b>᚛› 𝐍𝐚𝐦𝐞⚡ - {}</b>
-<b>᚛› 𝗥𝗔𝗝𝗔 𝗥𝗔𝗝𝗔 𝗣𝗢𝗥𝗨𝗞𝗜 </b>
+<b>᚛› 𝐆𝐭 𝐅𝐢𝐥𝐭𝐞𝐫 </b>
 """
