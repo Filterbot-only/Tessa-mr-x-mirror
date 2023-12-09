@@ -86,7 +86,7 @@ async def next_page(bot, query):
             [
                 InlineKeyboardButton(
                     text=f"{get_size(file.file_size)} {file.file_name}", 
-                    url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}")
+                    url=await get_shortlink(f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
             ]
             for file in files
@@ -96,11 +96,11 @@ async def next_page(bot, query):
             [
                 InlineKeyboardButton(
                     text=f"{get_size(file.file_size)} {file.file_name}", 
-                    url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}")
+                    url=await get_shortlink(f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
                 InlineKeyboardButton(
                     text=f"{get_size(file.file_size)} {file.file_name}", 
-                    url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}")
+                    url=await get_shortlink(f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
             ]
             for file in files
@@ -108,8 +108,8 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("🦞𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩👨‍🏫", url="https://t.me/Gt_Movies_Request"),
-            InlineKeyboardButton("🍃𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🗽", url="https://t.me/GT_MOVIES1")
+            InlineKeyboardButton("🦞𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩🌿", url="https://t.me/SAM_DUB_LEEZZa"),
+            InlineKeyboardButton("🌿𝐌𝐚𝐢𝐧 𝐇𝐮𝐛🍁", url="https://t.me/SAM_DUB_LEZHa")
         ]
     )
 
@@ -123,7 +123,7 @@ async def next_page(bot, query):
     # How to Download button
    
     btn.append(
-    [InlineKeyboardButton("🥀𝐇𝐨𝐰 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝🦞", url="https://t.me/GT_MOVIES1/9"),]
+    [InlineKeyboardButton("🥀𝐇𝐨𝐰 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝🦞", url="https://t.me/SMD_Dulinks/28"),]
 )
     if n_offset == 0:
         btn.append(
@@ -440,16 +440,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('♻️𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐔 𝐑 𝐆𝐫𝐮𝐩♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-        ], [
-            InlineKeyboardButton('🍃𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🗽', url='https://t.me/GT_MOVIES1'),
-            InlineKeyboardButton('🦞𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩👨‍🏫', url='https://t.me/Gt_Movies_Request')
-        ], [
-            InlineKeyboardButton('💥𝐒𝐮𝐩𝐩𝐨𝐫𝐭💐', callback_data='help'),
-            InlineKeyboardButton('🎋𝐌𝐨𝐫𝐞 𝐀𝐛𝐨𝐮𝐭❄', callback_data='about')
-        ], [
-            InlineKeyboardButton('🌿𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🍁', url='https://t.me/SMD_Owner')
-        ]]
+                    InlineKeyboardButton('🍁𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐔 𝐑 𝐆𝐫𝐨𝐮𝐩🍁', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                ],[
+                    InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url='https://t.me/SAM_DUB_LEZHa'),
+                    InlineKeyboardButton('❄ 𝐑𝐞𝐪 𝐆𝐫𝐨𝐮𝐩 🥀', url='https://t.me/SAM_DUB_LEEZZA')
+                ],[
+                    InlineKeyboardButton('🌿𝐇𝐞𝐥𝐩🎧', callback_data='help'),
+                    InlineKeyboardButton('♣𝐀𝐛𝐨𝐮𝐭🥀', callback_data='about')
+                ],[
+                    InlineKeyboardButton('🏞 𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎇', url='t.me/SAM_DUB_LEZHa')
+                  ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
@@ -459,13 +459,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙷𝙰𝚁𝙴 𝙰𝙽𝙳 𝚂𝚄𝙿𝙿𝙾𝚁𝚃')
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('🦞𝐌𝐚𝐧𝐮𝐚𝐥 𝐅𝐢𝐥𝐭𝐞𝐫🍁', callback_data='manuelfilter'),
-            InlineKeyboardButton('❤‍🔥𝐀𝐮𝐭𝐨 𝐅𝐢𝐥𝐭𝐞𝐫❤‍🔥', callback_data='autofilter')
+            InlineKeyboardButton('🦞 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ❄', url='https://t.me/SAM_DUB_LEZHa'),
+            InlineKeyboardButton('👾 𝐒𝐡𝐚𝐫𝐞 𝐦𝐞 🌿', url=f"https://t.me/share/url?url=t.me/{temp.U_NAME}")
         ], [
-            InlineKeyboardButton('🌿𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧🌿', callback_data='coct'),
-            InlineKeyboardButton('😈𝐄𝐱𝐭𝐫𝐚 𝐌𝐨𝐝𝐞𝐬😈', callback_data='extra')
+            InlineKeyboardButton('🌹 𝐂𝐡𝐞𝐚𝐤 𝐒𝐭𝐚𝐭𝐬 🗽', callback_data='stats'),
+            InlineKeyboardButton('💐 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 👨‍🏫', callback_data='contact')
         ], [
-            InlineKeyboardButton('🌿𝐇𝐨𝐦𝐞 𝐏𝐚𝐠𝐞🍁', callback_data='start'),
+            InlineKeyboardButton('🍀 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 ☘️', callback_data='source')
+        ], [
+            InlineKeyboardButton('🍁 𝐅𝐢𝐥𝐞 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐌𝐞𝐭𝐡𝐨𝐝 🍁', callback_data='info')
+        ], [
+            InlineKeyboardButton('🌋 𝐌𝐨𝐨𝐝𝐬 🏯', callback_data='mods')
+        ], [
+            InlineKeyboardButton('🎋 𝐂𝐡𝐞𝐜𝐤 𝐏𝐢𝐧𝐠 🌿', callback_data='pongd')
+        ], [
+            InlineKeyboardButton('🦞 𝐌𝐚𝐢𝐧 𝐏𝐚𝐠𝐞 ☠️', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -475,7 +483,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🍃𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🗽', url='https://t.me/GT_MOVIES1'),
+            InlineKeyboardButton('🍁𝐂𝐡𝐞𝐜𝐤 𝐒𝐭𝐚𝐭𝐬🥀', callback_data='stats'),
             InlineKeyboardButton('👑𝐀𝐮𝐭𝐡𝐨𝐫🥀', callback_data='source')
         ],[
             InlineKeyboardButton('🍁𝐇𝐨𝐦𝐞🌿', callback_data='start'),
