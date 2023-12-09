@@ -12,6 +12,7 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/QTVS_BOT_X_CLOUD')
+    
     START_TXT = environ.get("START_TXT", """𝐇𝐞𝐥𝐥𝐨... {}
     
 𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 <a href=https://t.me/Binthu_x_robot><b>☔𝐊𝐮𝐭𝐭𝐲 𝐏𝐚𝐚𝐩𝐚♣</b></a>
@@ -19,7 +20,9 @@ class script(object):
 𝐈 𝐂𝐚𝐧 𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐌𝐨𝐯𝐢𝐞𝐬, 𝐉𝐮𝐬𝐭 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐧𝐝 𝐌𝐚𝐤𝐞 𝐌𝐞 𝐀𝐝𝐦𝐢𝐧.. 𝐓𝐡𝐞𝐧 𝐒𝐞𝐞 𝐌𝐲 𝐏𝐨𝐰𝐞𝐫
 
 𝐌𝐚𝐤𝐞𝐫 𝐌𝐞 <a href=https://t.me/SMD_Owner><b>♣𝐀𝐮𝐭𝐡𝐨𝐫🥀</b></a></b>""")
+    
     HELP_TXT = """<b>𝐇𝐞𝐲 {} 𝐅𝐫𝐢𝐞𝐧𝐝𝐬 𝐇𝐞𝐫𝐞 𝐘𝐨𝐮𝐫 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 👇</b>"""
+    
     ABOUT_TXT = """<b>🎧 𝐌𝐲 𝐍𝐚𝐦𝐞 𝐢𝐬 : <a href=https://t.me/Binthu_x_robot>♣𝐊𝐮𝐭𝐭𝐲 𝐏𝐚𝐚𝐩𝐚♻️</a>
 🔥 𝐀𝐫𝐭𝐢𝐬𝐭 : <a href=https://t.me/Owner_of_qtmve>🍁𝐐𝐭𝐦𝐯𝐞_𝐎𝐰𝐧𝐞𝐫☔</a>
 🍻 𝐃𝐞𝐯𝐨𝐥𝐨𝐩𝐞𝐫 : <a href=https://t.me/SMD_Owner>🎋𝐒𝐌𝐃_𝐎𝐰𝐧𝐞𝐫🦞</a>
@@ -27,6 +30,7 @@ class script(object):
 ♠ 𝐊𝐨𝐥𝐚𝐫𝐮 : <a href=https://t.me/Svaraz>🎭𝐔𝐚𝐫𝐮𝐭𝐨🔥</a>
 👨‍🔧 𝐇𝐞𝐥𝐩𝐞𝐫 : <a href=https://t.me/Thavarajtj>🗽𝐓𝐡𝐚𝐯𝐚𝐫𝐚𝐣🌿</a>
 ⚜️ 𝐐𝐭𝐯𝐬𝐨𝐟𝐟𝐢𝐜𝐢𝐚𝐥 : <a href=https://t.me/QTVS_BOT_X_CLOUD>🥀𝐌𝐚𝐫𝐯𝐞𝐥🎋</a></b>"""
+    
     SOURCE_TXT = """𝐓𝐡𝐢𝐬 𝐈𝐬 𝐀𝐧 𝐎𝐩𝐞𝐧-𝐒𝐨𝐮𝐫𝐜𝐞 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐁𝐲 @SMD_Owner
 
 - 𝟏𝟎𝟎﹪ 𝐂𝐨𝐝𝐞𝐝 𝐁𝐲 <a href=https://t.me/SMD_Owner>🌿𝐑𝐨𝐥𝐞𝐱🦞</a>
