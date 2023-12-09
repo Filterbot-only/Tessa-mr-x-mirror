@@ -37,12 +37,14 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-            InlineKeyboardButton('𝐇𝐨𝐰 𝐓𝐨 𝐔𝐬𝐞 𝐌𝐞', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/GT_MOVIES1')
-        ]]
+                    InlineKeyboardButton('𝐌𝐚𝐢𝐧 𝐇𝐮𝐛', url='https://t.me/SAM_DUB_LEEZZA'),
+                    InlineKeyboardButton('𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/SAM_DUB_LEZHa')
+                 ],[
+                    InlineKeyboardButton("🍁𝐁𝐨𝐭 𝐂𝐫𝐞𝐚𝐭𝐨𝐫🍁", url="t.me/SMD_Owner")
+                  ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
-            text=f"<b>›› 𝚃𝙷𝙰𝙽𝙺𝚂 𝚃𝙾 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿. {message.chat.title} ❣️\n›› 𝙳𝙾𝙽'𝚃 𝙵𝙾𝚁𝙶𝙴𝚃 𝚃𝙾 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽.\n›› 𝙸𝚂 𝙰𝙽𝚈 𝙳𝙾𝚄𝙱𝚃𝚂 𝙰𝙱𝙾𝚄𝚃 𝚄𝚂𝙸𝙽𝙶 𝙼𝙴 𝙲𝙻𝙸𝙲𝙺 𝙱𝙴𝙻𝙾𝚆 𝙱𝚄𝚃𝚃𝙾𝙽..⚡⚡.</b>",
+            text=f"<b>›› 𝐓𝐡𝐚𝐧𝐤𝐬 𝐭𝐨 𝐀𝐝𝐝 𝐦𝐞 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩. {message.chat.title} 🍁\n›› 𝐃𝐨𝐧'𝐭 𝐅𝐨𝐫𝐠𝐞𝐭 𝐭𝐨 𝐌𝐞𝐤𝐞 𝐦𝐞 𝐀𝐝𝐦𝐢𝐧.\n›› 𝐈𝐬 𝐀𝐧𝐲 𝐃𝐨𝐮𝐛𝐭𝐬 𝐀𝐛𝐨𝐮𝐭 𝐔𝐬𝐢𝐧𝐠 𝐌𝐞 𝐂𝐥𝐢𝐜𝐤 𝐁𝐞𝐥𝐨𝐰 𝐁𝐮𝐭𝐭𝐨𝐧...</b>",
             reply_markup=reply_markup)
     else:
         settings = await get_settings(message.chat.id)
@@ -54,12 +56,12 @@ async def save_group(bot, message):
                     except:
                         pass
                 temp.MELCOW['welcome'] = await message.reply_video(
-                video="https://telegra.ph/file/03691465baa774e46506d.mp4",                                               
-                                                 caption=f'<b>Hey there... {u.mention} 😍\nWelcome to {message.chat.title} How Are You?\n\n👉Request Format\nMovie Name (Correct spelling)\nYear Or Language\n\n👉 Search On Google & Paste Here! With Correct Proper Spelling! To Get Movie\n\n👉Example :\nVidaaMuyarchi (2023) Tamil\nLeo (2023) Tamil\n\n👉Dont Type ( Movie, bro, anupuga, hd) You wont get Anything!</b>',
+                video="https://graph.org/file/5f4126f0a68828857243f.mp4",                                               
+                                                 caption=f'<b> 𝐇𝐞𝐲 𝐭𝐡𝐞𝐫𝐞... {u.mention} 😍\n 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 {message.chat.title} 𝐇𝐨𝐰 𝐀𝐫𝐞 𝐘𝐨𝐮? \n\n 👉𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐅𝐨𝐫𝐦𝐚𝐭 \n 𝐌𝐨𝐯𝐢𝐞 𝐍𝐚𝐦𝐞 (Correct spelling)\n 𝐘𝐞𝐚𝐫 𝐎𝐫 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 \n\n 👉 𝐒𝐞𝐚𝐫𝐜𝐡 𝐎𝐧 𝐆𝐨𝐨𝐠𝐥𝐞 & 𝐏𝐚𝐬𝐭𝐞 𝐇𝐞𝐫𝐞! 𝐖𝐢𝐭𝐡 𝐂𝐨𝐫𝐫𝐞𝐜𝐭 𝐏𝐫𝐨𝐩𝐞𝐫 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠! 𝐓𝐨 𝐆𝐞𝐭 𝐌𝐨𝐯𝐢𝐞 \n\n 👉𝐄𝐱𝐚𝐦𝐩𝐥𝐞 : \n 𝐕𝐢𝐝𝐚𝐚𝐌𝐮𝐲𝐚𝐫𝐜𝐡𝐢 𝟐𝟎𝟐𝟓 𝐓𝐚𝐦𝐢𝐥 \n 𝐋𝐞𝐨 𝟐𝟎𝟐𝟑 𝐓𝐚𝐦𝐢𝐥 \n\n 👉𝐃𝐨𝐧𝐭 𝐓𝐲𝐩𝐞 ( 𝐌𝐨𝐯𝐢𝐞, 𝐛𝐫𝐨, 𝐚𝐧𝐮𝐩𝐮𝐠𝐚, 𝐡𝐝) 𝐘𝐨𝐮 𝐰𝐨𝐧𝐭 𝐠𝐞𝐭 𝐀𝐧𝐲𝐭𝐡𝐢𝐧𝐠! </b>',
 
-                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('♣𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🎋', url='https://t.me/GT_MOVIES1') ],
+                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('♣𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🎋', url='https://t.me/SAM_DUB_LEZHa') ],
 
-                                                                                      [ InlineKeyboardButton('♠𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩🥀', url='https://t.me/Gt_Movies_Request') ]
+                                                                                      [ InlineKeyboardButton('♠𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩🥀', url='https://t.me/SAM_DUB_LEEZZa') ]
 
                                                                                     ] )
 
